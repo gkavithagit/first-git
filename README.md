@@ -10,6 +10,6 @@
 I learned how to create variable and store different types of values in Python.
 I also learned how to check the data type of a value using type().
 ## Day 1 status
-Variable
-Data Types
+- Variable
+- Data Types
 Practice Programs
