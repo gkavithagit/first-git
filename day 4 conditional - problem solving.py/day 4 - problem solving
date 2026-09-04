@@ -33,4 +33,12 @@ elif num2 > num1:
 else:
     print("Both are equal")
 
+units = int(input("Enter units consumed"))
+if units <= 100:
+    print("Rs. 2")
+elif units <= 200:
+    print("Rs. 3")
+else:
+    print("Rs. 5")
+
 
