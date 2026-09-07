@@ -1,48 +1,92 @@
-# September Python Challenge 🐍
+🐍 Python Learning Journey — September 2026
 
-I am learning Python step by step throughout September.
+A daily Python learning journey focused on building strong fundamentals through learning, practice, debugging, and small projects.
 
-## Day 1 - Variables and Data Types
+📅 Daily Progress
 
-### Topics Learned
+Day| Topics Covered| Status
+Day 1| Python basics, variables, data types, input & output| ✅ Completed
+Day 2| Operators, basic expressions, GitHub practice, Mini Calculator project| ✅ Completed
+Day 3| Conditional statements — "if", "elif", "else" + practice| ✅ Completed
+Day 4| Conditional statement practice and problem solving| ✅ Completed
+Day 5| Loops — "for", "while", "break", "continue"| ✅ Completed
+Day 6| Lists — syntax, empty lists, indexing, negative indexing, "len()", loops, slicing, nested lists| ✅ Completed
+Day 7| List methods — "append()", "insert()", "extend()", "remove()", "pop()", "clear()", "index()", "count()", "sort()", "reverse()", "sorted()"| ✅ Completed
+
+---
+
+🧠 Concepts Learned So Far
+
+🔹 Python Fundamentals
+
 - Variables
 - Data Types
-- int
-- float
-- string
-- boolean
-- type()
+- Input and Output
+- Operators
+- Expressions
 
-### What I Practiced
-I learned how to create variables and store different types of values in Python.
+🔹 Conditional Statements
 
-I also learned how to check the data type of a value using type().
+if
+elif
+else
+
+🔹 Loops
+
+for
+while
+break
+continue
+
+🔹 Lists
+
+- Creating lists
+- Empty lists
+- Indexing
+- Negative indexing
+- Slicing
+- Nested lists
+- Traversing lists using loops
+- Finding list length
+
+🔹 List Methods
+
+append()
+insert()
+extend()
+remove()
+pop()
+clear()
+index()
+count()
+sort()
+reverse()
+
+🔹 Built-in Function
+
+len()
+sorted()
 
 ---
 
-## Day 2 - Input and Operators
+💻 Projects & Practice
 
-### Topics Learned
-- input()
-- int()
-- float()
-- Arithmetic operators
-- Comparison operators
-- Logical operators
+🧮 Mini Calculator
 
-### What I Practiced
-I learned how to take input from the user using input().
-
-I learned that input() returns a string by default, so int() or float() can be used when numerical input is required.
-
-I also practiced arithmetic, comparison and logical operators.
-
-### Mini Project
-- Simple Calculator
+Built a simple Python calculator using the concepts learned during the first few days of the journey.
 
 ---
 
-## Progress
+📈 Learning Approach
 
-- ✅ Day 1 - Variables and Data Types
-- ✅ Day 2 - Input and Operators
+Learn → Practice → Debug → Understand → Repeat
+
+The focus is on understanding Python concepts and writing code independently rather than simply copying solutions.
+
+---
+
+🔥 Current Progress
+
+Day 7 / September 2026
+
+Currently learning and practicing Python Lists and List Operations.
