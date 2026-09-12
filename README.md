@@ -1,92 +1,189 @@
-🐍 Python Learning Journey — September 2026
+Python Development Journey 🐍
 
-A daily Python learning journey focused on building strong fundamentals through learning, practice, debugging, and small projects.
+Welcome to my Python learning repository.
 
-📅 Daily Progress
+This repository documents my structured learning, hands-on practice, and practical application of Python programming concepts as a second-year B.Sc. Computer Science student.
 
-Day| Topics Covered| Status
-Day 1| Python basics, variables, data types, input & output| ✅ Completed
-Day 2| Operators, basic expressions, GitHub practice, Mini Calculator project| ✅ Completed
-Day 3| Conditional statements — "if", "elif", "else" + practice| ✅ Completed
-Day 4| Conditional statement practice and problem solving| ✅ Completed
-Day 5| Loops — "for", "while", "break", "continue"| ✅ Completed
-Day 6| Lists — syntax, empty lists, indexing, negative indexing, "len()", loops, slicing, nested lists| ✅ Completed
-Day 7| List methods — "append()", "insert()", "extend()", "remove()", "pop()", "clear()", "index()", "count()", "sort()", "reverse()", "sorted()"| ✅ Completed
+The focus is on building a strong foundation in Python through consistent practice, problem-solving, and small practical implementations.
 
 ---
 
-🧠 Concepts Learned So Far
+📚 Learning Progress
 
-🔹 Python Fundamentals
+Day 1 — Variables & Data Types
 
-- Variables
-- Data Types
-- Input and Output
-- Operators
-- Expressions
+- Variables and naming conventions
+- Fundamental Python data types
+- "int", "float", "str", and "bool"
+- Type identification using "type()"
 
-🔹 Conditional Statements
+Day 2 — User Input & Operators
 
-if
-elif
-else
+- User input using "input()"
+- Type conversion
+- Arithmetic operators
+- Comparison operators
+- Logical operators
+- Assignment operators
 
-🔹 Loops
+Day 3 — Conditional Statements
 
-for
-while
-break
-continue
+- "if", "elif", and "else"
+- Conditional expressions
+- Decision-making and logical conditions
 
-🔹 Lists
+Day 4 — Conditional Programming Practice
 
-- Creating lists
-- Empty lists
-- Indexing
-- Negative indexing
-- Slicing
+- Applied conditional statements to programming problems
+- Practiced logical decision-making
+- Strengthened fundamental problem-solving skills
+
+Day 5 — Python Fundamentals Practice
+
+- Consolidated previously learned Python concepts
+- Applied fundamental syntax through coding exercises
+- Practiced writing and testing Python programs
+
+Day 6 — Lists
+
+- List creation and syntax
+- Indexing and negative indexing
+- Adding and removing elements
+- "append()", "insert()", "remove()", and "pop()"
+- "len()"
+- Iterating through lists using loops
+
+Day 7 — Advanced List Operations
+
+- List sorting
+- List slicing
+- Reversing lists
 - Nested lists
-- Traversing lists using loops
-- Finding list length
+- Iterating and manipulating list elements
+- Practical list-based programming exercises
 
-🔹 List Methods
+Day 8 — Functions
 
-append()
-insert()
-extend()
-remove()
-pop()
-clear()
-index()
-count()
-sort()
-reverse()
+- Defining functions using "def"
+- Function calls
+- Parameters and arguments
+- Return values using "return"
+- Difference between "print()" and "return"
+- Writing reusable and organized code
 
-🔹 Built-in Function
+Day 9 — Function-Based Programming
 
-len()
-sorted()
+- Applied functions to practical programming problems
+- Practiced parameters, arguments, and return values
+- Improved code modularity and reusability
+- Strengthened structured problem-solving
+
+Day 10 — Dictionaries
+
+- Dictionary structure and key-value pairs
+- Creating and accessing dictionaries
+- Adding and updating data
+- Removing dictionary elements
+- Dictionary methods
+- Iterating through keys and values
+
+Day 11 — Sets: Fundamentals
+
+- Set creation and syntax
+- Understanding unique elements
+- "add()" and "update()"
+- "remove()" and "discard()"
+- "pop()" and "clear()"
+- "len()"
+- Membership testing using "in"
+
+Day 12 — Sets: Operations & Practical Applications
+
+- Union
+- Intersection
+- Difference
+- Subsets and supersets
+- Duplicate removal
+- Membership checking
+- Applying sets to common programming patterns
 
 ---
 
-💻 Projects & Practice
+💡 Practical Coding Patterns
 
-🧮 Mini Calculator
+Alongside learning individual concepts, I am focusing on understanding how Python features are applied to common programming problems.
 
-Built a simple Python calculator using the concepts learned during the first few days of the journey.
+Removing Duplicate Values
+
+numbers = [10, 20, 10, 30, 20, 40]
+
+unique_numbers = set(numbers)
+
+print(unique_numbers)
+
+Application: Using sets to efficiently eliminate duplicate values from a collection.
+
+Detecting Duplicate Values
+
+numbers = [1, 2, 3, 2, 4]
+
+seen = set()
+
+for number in numbers:
+    if number in seen:
+        print("Duplicate:", number)
+    else:
+        seen.add(number)
+
+Application: Using a set to track previously encountered values and identify duplicates.
+
+---
+
+🛠️ Technical Skills
+
+Programming Language
+
+- Python
+
+Core Concepts
+
+- Variables & Data Types
+- User Input & Type Conversion
+- Operators
+- Conditional Statements
+- Lists
+- Functions
+- Dictionaries
+- Sets
+- Loops
+- Basic Problem Solving
+
+Programming Practices
+
+- Writing reusable code
+- Breaking problems into smaller steps
+- Applying built-in Python data structures
+- Developing practical coding patterns
+- Testing and debugging programs
+
+---
+
+🚀 Hands-On Development
+
+This repository serves as a record of my continuous Python development journey, including:
+
+- Concept-based practice programs
+- Practical coding exercises
+- Small Python projects
+- Common programming patterns
+- Progressive improvements in problem-solving
+
+I am continuously expanding this repository as I learn and apply new Python concepts.
 
 ---
 
 📈 Learning Approach
 
-Learn → Practice → Debug → Understand → Repeat
+Learn → Practice → Apply → Build → Improve
 
-The focus is on understanding Python concepts and writing code independently rather than simply copying solutions.
-
----
-
-🔥 Current Progress
-
-Day 7 / September 2026
-
-Currently learning and practicing Python Lists and List Operations.
+This repository reflects my progress from Python fundamentals toward writing more structured, efficient, and practical programs.
