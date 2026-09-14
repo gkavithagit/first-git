@@ -75,15 +75,15 @@ words = ["python", "is", "powerful"]
 sentence = " ".join(words)
 print(sentence)
 
-# ----- Startwith() ------
+# ----- Startswith()----- 
 
-email = "kavi@gmail.com"
-print(email.startwith("kavi"))
+email = "kavi@gamil.com"
+print(email.startswith("kavi"))
 
-# ----- Endwith() ------
+# ----- Endswith() ------
 
 file = "resume.pdf"
-print(file.endwith(".pdf"))
+print(file.endswith(".pdf"))
 
 # ------ isalpha() ------
 
@@ -106,7 +106,8 @@ print(age.isdigit())
 word = "PYTHON"
 for char in word:
     print(char)
-    
+
+
 
 
 
