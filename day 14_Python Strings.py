@@ -62,4 +62,55 @@ print(text.count("a"))
 text = "I love python"
 print("python" in text)
 
+# ----- Strings concepts part 2 -----
+# ----- split() ------
+
+text = "my skill is python"
+words = text.split()
+print(words)
+
+# ----- Join() -----
+
+words = ["python", "is", "powerful"]
+sentence = " ".join(words)
+print(sentence)
+
+# ----- Startwith() ------
+
+email = "kavi@gmail.com"
+print(email.startwith("kavi"))
+
+# ----- Endwith() ------
+
+file = "resume.pdf"
+print(file.endwith(".pdf"))
+
+# ------ isalpha() ------
+
+name = "Kavi"
+print(name.isalpha())
+
+name = "kavi123"
+print(name.isalpha())
+
+# ------ isdigit() -----
+
+age = "20"
+print(age.isdigit())
+
+age = "20years"
+print(age.isdigit())
+
+# ----- Looping through string -----
+
+word = "PYTHON"
+for char in word:
+    print(char)
+    
+
+
+
+
+
+
 
