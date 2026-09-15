@@ -1,0 +1,4 @@
+Name: Kavi
+Course: Bsc CS
+Skill: Python
+Goal: Placement
